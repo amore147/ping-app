@@ -1,0 +1,46 @@
+# Dependencies
+**/node_modules
+
+# Build output
+**/dist
+**/build
+**/.vite
+
+# Environment / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Logs
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+
+# Testing / coverage
+**/coverage
+**/.nyc_output
+
+# Cache
+**/.cache
+**/.eslintcache
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+
+# Documentation
+README.md
